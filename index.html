@@ -2,56 +2,19 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-	<title>Prototype</title>
-	<link rel="stylesheet"type ="text/css" href ="./index.css"/>
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Project Experiments</title>
+  <link rel="stylesheet"type ="text/css" href ="./index.css"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <style>.mySlides {display:none;}</style>
 <body>
-	<h1>Prototype for Order-Pickup</h1>
-	<div class="my-container">
-		<video class="video-wrapper" controls preload> 
-    		<source src="assignment4.mp4" media="only screen and (min-device-width: 568px)"></source>
-    	</video>
-	</div>
-
-	<div class="slide-container">
-		<h2 class="w3-center">Prototype Slides</h2>
-		<div class="w3-content w3-display-container">
- 			<img class="mySlides" src="./prototype/login.JPG" style="width:100%">
-  			<img class="mySlides" src="./prototype/loginPass.JPG" style="width:100%">
-  			<img class="mySlides" src="./prototype/postalcode.JPG" style="width:100%">
-  			<img class="mySlides" src="./prototype/restaurant.JPG" style="width:100%">
-  			<img class="mySlides" src="./prototype/menu.JPG" style="width:100%">
-  			<img class="mySlides" src="./prototype/payment.JPG" style="width:100%">
-  			<img class="mySlides" src="./prototype/confirmation.JPG" style="width:100%">
-  			<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-		</div>
-	<div>
-</video>
+  <h1>Prototype for Order-Pickup</h1>
+  <div class="my-container">
+    <video class="video-wrapper" controls preload> 
+        <source src="projectexperiments.mp4" media="only screen and (min-device-width: 568px)"></source>
+      </video>
+  </div>
 
 
-
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
 </body>
 </html>
